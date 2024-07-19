@@ -3,7 +3,7 @@
 
 This project is a simple yet fun browser-based game where you can control a paddle to keep the ball in play against the computer-controlled paddle and the difficulty increases with each round to keep the game challenging.
 
-🔗 Live Demo: [Ping-Pong-drab](https://ping-pong-drab.vercel.app/)
+🔗 Start Playing: [Ping-Pong-drab](https://ping-pong-drab.vercel.app/)
 ## ✨ Features
 
 - **🎮 Interactive Gameplay:** Seamlessly control the paddle with your up and down arrow key.
