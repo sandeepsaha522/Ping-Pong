@@ -1,7 +1,7 @@
 
 # 🏓Ping Pong Game
 
-This project is a simple yet fun browser-based game where you can control a paddle to keep the ball in play against the computer-controlled paddle.
+This project is a simple yet fun browser-based game where you can control a paddle to keep the ball in play against the computer-controlled paddle and the difficulty increases with each round to keep the game challenging.
 
 🔗 Live Demo: [Ping-Pong-drab](https://ping-pong-drab.vercel.app/)
 ## ✨ Features
