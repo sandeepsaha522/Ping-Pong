@@ -1,0 +1,92 @@
+/* Import the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Style for the body element */
+body {
+    /* Use the Poppins font for the entire page */
+    font-family: 'Poppins', sans-serif;
+    /* Center text horizontally */
+    text-align: center;
+    /* Apply a gradient background */
+    background: linear-gradient(135deg, #1abc9c, #3498db);
+    /* Center content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Arrange child elements in a column */
+    flex-direction: column;
+    /* Full viewport height */
+    height: 100vh;
+    /* Remove default margin */
+    margin: 0;
+    /* Hide overflow to prevent scrollbars */
+    overflow: hidden;
+}
+
+/* Style for the main heading */
+h1 {
+    /* Set text color */
+    color: #ffffff;
+    /* Add space below the heading */
+    margin-bottom: 20px;
+    /* Add a shadow effect to the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Style for the canvas element */
+canvas {
+    /* Set a dark background color with transparency */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Add a white border around the canvas */
+    border: 5px solid #ffffff;
+    /* Add a shadow effect around the canvas */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /* Add space above and below the canvas */
+    margin: 20px 0;
+}
+
+/* Style for the paragraph element */
+p {
+    /* Set text color */
+    color: #ffffff;
+    /* Set font size */
+    font-size: 18px;
+    /* Add space above the paragraph */
+    margin-top: 20px;
+    /* Add a shadow effect to the text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the button element */
+button {
+    /* Set background color for the button */
+    background-color: #ffffff;
+    /* Set text color */
+    color: #3498db;
+    /* Remove default border */
+    border: none;
+    /* Add padding inside the button */
+    padding: 10px 20px;
+    /* Set font size */
+    font-size: 16px;
+    /* Set font weight */
+    font-weight: 600;
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Add space above the button */
+    margin-top: 20px;
+    /* Round the corners of the button */
+    border-radius: 5px;
+    /* Add a shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Smooth transition for background and text color changes */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style for button hover state */
+button:hover {
+    /* Change background color on hover */
+    background-color: #3498db;
+    /* Change text color on hover */
+    color: #ffffff;
+}
